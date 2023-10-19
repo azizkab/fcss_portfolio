@@ -1,0 +1,70 @@
+.car {
+    width: 22.024px;
+    height: 29.115px;
+    transform: rotate(32.484deg);
+    position: absolute;
+    left: 1341px;
+    top: 61px;
+    padding: 40px;
+    margin-right: 64px;
+}
+
+.cir {
+    position: absolute;
+    left: 940.395px;
+    top: 102px;
+    padding: 50px;
+}
+
+.fif {
+    width: 62.693px;
+    height: 44.025px;
+    transform: rotate(55.613deg);
+    position: absolute;
+    left: 603.001px;
+    top: 603px;
+}
+
+.fill {
+    width: 31.197px;
+    height: 30px;
+    position: absolute;
+    left: 27px;
+    top: 80px;
+    margin: 28px;
+}
+
+
+
+.back {
+    width: 616px;
+    height: 359.188px;
+    transform: rotate(-8.885deg);
+    flex-shrink: 0;
+    fill: var(--Linear, linear-gradient(90deg, #8548DA 0%, #078D84 41.59%, #556BBB 72.16%, #CC0F97 110.85%));
+}
+
+
+.me {
+    width: 384.799px;
+    height: 581.662px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -97.699px -14.626px / 155.682% 102.514% no-repeat;
+}
+
+.backdrop {
+    background-image: url("./backdrop.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/*
+@media screen and (max-width:767px){
+    .col{
+        width: 85% !important;
+    }
+    
+}
+-->
