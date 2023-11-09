@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Airfolio</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="./text.html">AzFolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -27,30 +21,63 @@
                         <a class="nav-link active" aria-current="page" href="./text.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./about_me.html">About me</a>
+                        <a class="nav-link active" href="./about_me.html">About me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio </a>
+                        <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./projects.html">Projects</a>
                     </li>
                 </ul>
                 <div class="navbar-nav ms-auto">
-                    <button type="button" class="btn btn-success">Hire Me</button>
+                    <a href="./contact.html"><button type="button"  class="btn btn-success">Hire Me</button></a>
                 </div>
             </div>
         </div>
     </nav>
 
-
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
-            <div class="col-8">
-                <div class="card" style="width: 36rem;">
-                    <img src="./MicrosoftTeams-image (1).png" class="card-img-top" alt="...">
+            <div class="col-md-4"> <!-- Updated the col class to col-md-4 for medium-sized screens -->
+                <div class="card">
+                    <img src="./pics/hexagone.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <h5 class="card-title">Ecole Hexagone</h5>
+                        <p class="card-text">Je suis un étudiant en 2ème année du cycle préparatoire en informatique (étudiant depuis 2021).</p>
                     </div>
-                  </div>
+                    <div class="card-body">
+                        <a target="_blank" href="https://www.ecole-hexagone.com" class="card-link">Visiter le site officiel</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4"> <!-- Updated the col class to col-md-4 for medium-sized screens -->
+                <div class="card">
+                    <img src="./pics/stage1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">ZupDeco</h5>
+                        <p class="card-text">Réalisation d'un stage d'été dans une association en développement web.</p>
+                    </div>
+                    <div class="card-body">
+                        <a target="_blank" href="https://zupdeco.org/" class="card-link">Visiter le site officiel</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4"> <!-- Updated the col class to col-md-4 for medium-sized screens -->
+                <div class="card">
+                    <img src="./pics/lycee.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Lycée Rue El Attarin Ariana</h5>
+                        <p class="card-text">Baccalauréat en économie et gestion, session 2020-2021.</p>
+                    </div>
+                    <div class="card-body">
+                        <a href="https://www.facebook.com/AttarineAriana/?locale=fr_FR" class="card-link" target="_blank">Visiter le site officiel</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
+</body>
+</html>
